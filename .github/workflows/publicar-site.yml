@@ -30,7 +30,7 @@ jobs:
       - name: Descompactar portal
         run: |
           mkdir -p public
-          unzip -q portal-fono-tia-jay-login-v2.zip -d temporario
+          unzip -q portal-fono-tia-jay-cadastro-completo.zip -d temporario
           cp -a temporario/portal-fono-tia-jay-login-v2/. public/
           touch public/.nojekyll
 
